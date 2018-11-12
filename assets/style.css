@@ -1,0 +1,51 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+    background-color:#333333;
+}
+
+/* 앱 */
+#app{
+    width:1024px;
+    padding:100px 120px;
+    box-sizing: border-box;
+    margin:auto;
+    background-color:white;
+}
+
+/* 정보 */
+#info{
+    font-size:20px;
+    line-height: 1em;
+}
+#info:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+#time{
+    float:left;
+}
+#pitch{
+    float:right;
+}
+
+/* 악보 */
+#container{}
+
+section.score{
+    display:none;
+    
+}
+section.score.active{
+    display:block;
+}
+
+div.bar{
+    border:solid 1px black;
+    height:235.5px;
+    margin-top:62.5px;
+}
+div.bar:first-child{
+    margin-top:17.5px;
+}
